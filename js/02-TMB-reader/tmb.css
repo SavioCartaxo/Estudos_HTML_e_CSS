@@ -1,0 +1,52 @@
+:root {
+    --cor-background: rgb(37, 36, 36);
+    --brown: rgb(88, 40, 40);
+}
+
+* {
+    margin: 0.5rem;
+    padding: 0;
+}
+
+body {
+    height: 96vh;
+    background-color: var(--cor-background);
+    
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo {
+    height: 80%;
+    width: 80%;
+    
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 5em;
+    color: var(--brown);
+}
+
+h2 {
+    font-size: 3em;
+    color: var(--brown);
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+p {
+    font-size: 1.5em;
+    color: var(--brown);
+}

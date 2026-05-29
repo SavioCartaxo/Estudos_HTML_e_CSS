@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora online de TMB</title>
+    <link rel="stylesheet" href="tmb.css">
+    <script defer src="tmb.js"></script>
+</head>
+
+
+<body>
+    <div class="corpo">
+
+        <h1>Cálculadora de TMB</h1>
+        <p>TMB é o cálculo usado para medir uma estimativa de taxa metabólica basal.</p>
+        <p>O resultado é calculado em quilo calorias.</p>
+
+        <section class="input">
+            <input type="number" placeholder="Peso em KG" id="peso">
+            <input type="number" placeholder="Idade" id="idade">
+            <input type="number" placeholder="Altura em cm" id="altura">
+        </section>
+        
+        <form>
+            <select id="sexo">
+                <option value="Selecionar">Selecionar</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select>
+        </form>
+
+        <button id="calcula">Calcular</button>
+
+        <h2 id="resultado"></h2>
+    </div>
+
+</body>
+</html>
