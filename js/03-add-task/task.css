@@ -1,0 +1,83 @@
+:root {
+    --back: rgb(15, 15, 106);
+    --marrom: rgb(67, 154, 230);
+    background-color: rgb(9, 2, 57);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    background-color: var(--back);
+
+    height: 80vh;
+    width: 80vw;
+
+    display: flex;
+    border-radius: 50px;
+}
+
+.direita, .esquerda {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 5em;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px  1px 0 black,
+        1px  1px 0 black;
+        
+    color: aquamarine;
+    text-align: center; /*Isso é novo pra mim*/
+}
+
+h2 {
+    margin: 10px;
+    font-size: 5em;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+    
+    text-align: center; /*Isso é novo pra mim*/
+    color: aquamarine;
+}
+
+.linha {
+    border: none;
+    width: 2px;
+    background-color: black;
+}
+
+li {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: aquamarine;
+}
+
+li::marker {
+    color: black;
+}
+
+input {
+    margin : 1em;
+}
